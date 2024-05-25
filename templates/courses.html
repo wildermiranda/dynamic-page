@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Courses</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Cursos</h1>
+    
+    <ul>
+        <li><a href="/courses/computacao-em-nuvem">{{courses[0]}}</a></li>
+        <li><a href="/courses/data-science">{{courses[1]}}</a></li>
+        <li><a href="/courses/engenharia-de-software">{{courses[2]}}</a></li>
+        <li><a href="/courses/inteligencia-artificial">{{courses[3]}}</a></li>
+    </ul>
+{% endblock %}
